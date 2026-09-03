@@ -92,6 +92,9 @@ Ran the whole pipeline on 7 synthetic days built with pre-market, trading window
 - k = 10 flagged 19 ticks per day as INVALID_LABEL, which matches 2k - 1 (9 at the start, 10 at the end)
 - 0 samples leaked an INVALID_LABEL, and every sample came out (1, 100, 40)
 
+### Evolving-Microstructural-toolkit-data Validation
+
+- Used the same core mechanism as Juan's validation scripts and confirmed by hashing a real file both ways and got the identical result: SHA-256 hash of every file
 
 
 
